@@ -1,8 +1,11 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "db_empl";
+ 
+
+$servername = "mysql-testingmultiverse.alwaysdata.net";
+$username = "137656_root"; 
+$password = "1234";
+$dbname = "testingmultiverse_empl_b";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
